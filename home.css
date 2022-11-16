@@ -64,3 +64,81 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.home{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    display: fl;
+}
+
+.title_home{
+    display: inline-block;
+    margin: 0;
+    /* width: fit-content; */
+}
+
+.title{
+    left: 0;
+    width: fit-content;
+    font-size: 800%;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.first_line{
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+}
+
+.img_menu{
+    border-radius: 20%;
+    border: 6px solid black;
+    margin-left: 10%;
+    height: 150px;
+}
+
+.zoom {
+    width: 320px;
+    /* height: 200px; */
+}
+
+.image {
+    width: 100%;
+    background-size:contain;
+}
+
+.image img {
+    -moz-transition: all 1s ease; /* Firefox */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    /* L'image est grossie de 25% */
+    -moz-transform:scale(1.25); /* Firefox */
+    transform:scale(1.25);
+}
+
+.img_menu{
+    margin-left: 20%;
+    border-radius: 20%;
+    border: 5px solid black;
+    width: 120%;
+}
+
+.all_project{
+    margin-left: 40%;
+}
